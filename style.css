@@ -376,9 +376,13 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Handmade Art Drawings";
+}
+.card{
+    cursor: pointer;
 }
 .teams .carousel .card{
+
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
