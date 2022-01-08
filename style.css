@@ -378,7 +378,6 @@ section .title::after{
 .teams .title::after{
     content: "Handmade Art Drawings";
 }
-
 .card{
     cursor: pointer;
 }
