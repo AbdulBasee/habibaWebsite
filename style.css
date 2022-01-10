@@ -423,6 +423,60 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
+
+
+
+/* tech project section  */
+.tech .gabar::after{
+    content: "My Software Development Skills";
+}
+
+
+
+.tech .carousel .card{
+
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.tech .carousel .card:hover{
+    background: crimson;
+}
+.tech .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.tech .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.tech .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.tech .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.tech .carousel .card:hover img{
+    border-color: #fff;
+}
+
+/* techsection complete */
+
+
+
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
